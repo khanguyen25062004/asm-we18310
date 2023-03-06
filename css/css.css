@@ -1,0 +1,104 @@
+/* căn chinh backgroun header */
+*{
+    margin: 0;
+}
+.hd{
+    background-color: rgb(35,35,35);
+    height: 145px;
+}
+.hd{
+    border-bottom: 1px solid white;
+}
+.dia-chi{
+    font-size: 14px;
+    color: white;
+    font-size: 20px;
+}
+/* căn chỉnh h2 */
+.search-login{
+    max-width: 100%;
+    border-top: 1px solid white;
+}
+.head2{
+    display: inline;
+    vertical-align: middle;
+}
+.search-login input{
+    height: 35px;
+    width: 300px;
+    border-radius: 7px;
+    margin: 0 0 0 430px;
+}
+.search-login img{
+    height: 65px;
+}
+.search-login .login{
+    margin: 0 0 0 400px;
+    font-size: 25px;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    padding:2px 2px 3px 2px;
+    border-radius: 5px;
+}
+/* Căn chỉnh vmenu */
+
+.vmenu{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(35,35,35);
+    display: inline;
+}
+.vmenu ul li {
+    display: inline;
+}
+.vmenu nav ul{
+    border-top: 1px solid gray;
+    padding-top: 10px;
+}
+.vmenu ul li a{
+    font-size: 25px;
+    margin: 0 0 0 50px;
+    color: white;
+    text-decoration: none;
+}
+
+/* product */
+.product{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.product2{
+    width: 80%;
+    margin-top: 20px;
+    margin: 0 auto;
+    display: flex;
+}
+.ft div nav ul li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+.ft div nav ul li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+h3{
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: white;
+}
+.ft1{
+    margin: 40px 40px;
+}
+.themgiohang{
+    text-decoration: none;
+    color: blue;
+}
+.themgiohang:hover{
+    text-decoration:underline;
+    color: red;
+    background-color: aqua;
+}
